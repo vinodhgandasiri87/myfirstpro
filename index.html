@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to My Restaurant</h1>
+    <p>Fresh Food • Fast Service</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- MENU -->
+
+<section id="menu">
+
+<h2>Our Menu</h2>
+
+<div class="card">
+<img src="biryani.jpg" alt="">
+<div>
+<h3>Chicken Biryani</h3>
+<p>₹150</p>
+
+<div class="cart-box">
+<button>-</button>
+<span class="qty">1</span>
+<button>+</button>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</div>
+</div>
+
+<div class="card">
+<img src="friedrice.jpg" alt="">
+<div>
+<h3>Veg Fried Rice</h3>
+<p>₹110</p>
+
+<div class="cart-box">
+<button>-</button>
+<span class="qty">1</span>
+<button>+</button>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</div>
+</div>
+
+<div class="card">
+<img src="pizza.jpg" alt="">
+<div>
+<h3>Pizza</h3>
+<p>₹299</p>
+
+<div class="cart-box">
+<button>-</button>
+<span class="qty">1</span>
+<button>+</button>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- GALLERY -->
+
+<section id="gallery">
+
+<h2>Food Gallery</h2>
+
+<div class="gallery">
+
+<img src="biryani.jpg">
+
+<img src="friedrice.jpg">
+
+<img src="pizza.jpg">
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+Welcome to My Restaurant. We serve fresh and delicious food every day.
+Our goal is to provide tasty food, fast service and affordable prices.
+</p>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section id="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Best Chicken Biryani in town!</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Delicious Pizza and Fast Service.</p>
+<h4>- Priya</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Loved the Veg Fried Rice.</p>
+<h4>- Kiran</h4>
+</div>
+
+</section>
+
+<!-- ORDER -->
+
+<section id="order">
+
+<h2>Order Online</h2>
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="text" id="phone" placeholder="Phone Number">
+
+<select id="food">
+
+<option value="150">Chicken Biryani - ₹150</option>
+
+<option value="110">Veg Fried Rice - ₹110</option>
+
+<option value="299">Pizza - ₹299</option>
+
+</select>
+
+<input type="number" id="qty" placeholder="Quantity">
+
+<textarea id="address" placeholder="Delivery Address"></textarea>
+
+<button onclick="bill()">Generate Receipt</button>
+
+<div id="receipt"></div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📍 Hyderabad, Telangana</p>
+
+<p>📞 +91 8919025924</p>
+
+<p>📧 vinodhgandhasiri@gmail.com</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 My Restaurant. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
